@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="imagenes/javicon_temporal.svg" type="image/x-icon">
+    <link rel="icon" href="imagenes/LogoDiffferent.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
     <title>Cookin TV</title>
 </head>
@@ -12,13 +12,13 @@
     <div id="cabecera">
 
         <header>
-            <img src="imagenes/imagenRecortadaMasPixeles.jpg" id="imagen_portada" alt="Imagen de portada">
+            <a href="index.html"><img src="imagenes/diferentGrande.png" id="imagen_portada" alt="Imagen de portada"></a>
         </header>
 
         <nav>
             <ul>
                 <li><a href="#" class="nav_opciones">NOVEDADES</a></li>
-                <li><a href="#" class="nav_opciones">PELÍCULAS</a></li>
+                <li><a href="peliculas.html" class="nav_opciones">PELÍCULAS</a></li>
                 <li><a href="#" class="nav_opciones">SERIES</a></li>
                 <li><a href="#" class="nav_opciones">JUEGOS</a></li>
                 <li><a href="#" class="nav_opciones">SOBRE MÍ</a></li>
@@ -29,9 +29,16 @@
 
     <div id="cuerpo_pagina">
         <aside></aside>
-
-        <div>
-            <img src="imagenes/cookinsoul.png" id="imagen_cuerpo" alt="Imagen con texto" >
+        <div id="div_texto">
+            <p id="texto">
+                CookinTV CookinTV CookinTV CookinTV
+            </p>
+        </div>
+        <div id="div_imagen">
+            <div id="imagen_t">
+                <img src="imagenes/cookinsoul.png" id="imagen_cuerpo" alt="Imagen con texto" >
+            </div>
+            
         </div>
 
         <aside>
@@ -39,11 +46,11 @@
                 <table id="acceso">
                     <tr>
                         <th>Usuario</th>
-                        <td><label><input type="text"></label></td>
+                        <td><label><input type="text" class="labels"></label></td>
                     </tr>
                     <tr>
                         <th>Contraseña</th> 
-                        <td><label><input type="password"></label></td>
+                        <td><label><input type="password" class="labels"></label></td>
                     </tr>
                     <tr>
                         <td colspan="2" >
@@ -63,22 +70,22 @@
     </div>
 
     <footer>
+        <div id="div_footer">
+            <div id="copyright">
+                <p>@ CookinTV Copyright 2024</p>
+            </div>
 
-        <div id="copyright">
-            <p>@ CookinTV Copyright 2024</p>
+            <div id="social_icons">
+                <ul>
+                    <li>
+                        <img src="imagenes/tuenti_icon.svg" alt="Icono de tuenti">
+                    </li>
+                    <li>
+                        <img src="imagenes/myspace_icon.svg" alt="Icono de tuenti">
+                    </li>
+                </ul>
+            </div>
         </div>
-
-        <div id="social_icons">
-            <ul>
-                <li>
-                    <img src="imagenes/tuenti_icon.svg" alt="Icono de tuenti">
-                </li>
-                <li>
-                    <img src="imagenes/myspace_icon.svg" alt="Icono de tuenti">
-                </li>
-            </ul>
-        </div>
-
     </footer>
 
 </body>
