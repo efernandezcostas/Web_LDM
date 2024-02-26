@@ -11,11 +11,11 @@
 <body>
     <div id="cabecera">
 
-        <div id="header">
-            <img src="imagenes/imagenRecortadaMasPixeles.jpg" alt="Imagen de portada">
-        </div>
+        <header>
+            <img src="imagenes/imagenRecortadaMasPixeles.jpg" id="imagen_portada" alt="Imagen de portada">
+        </header>
 
-        <div id="nav">
+        <nav>
             <ul>
                 <li><a href="#" class="nav_opciones">NOVEDADES</a></li>
                 <li><a href="#" class="nav_opciones">PELÍCULAS</a></li>
@@ -23,46 +23,48 @@
                 <li><a href="#" class="nav_opciones">JUEGOS</a></li>
                 <li><a href="#" class="nav_opciones">SOBRE MÍ</a></li>
             </ul>
-        </div>
+        </nav>
 
     </div>
 
-    <div id="cuerpo_central">
+    <div id="cuerpo_pagina">
         <aside></aside>
 
-        <div id="cuerpo_imagen">
-            <img src="imagenes/cookinsoul.png" alt="Imagen con texto" >
+        <div>
+            <img src="imagenes/cookinsoul.png" id="imagen_cuerpo" alt="Imagen con texto" >
         </div>
 
-        <aside id="izquierda">
-            <table>
-                <tr>
-                    <th>Usuario</th>
-                    <td><label><input type="text"></label></td>
-                </tr>
-                <tr>
-                    <th>Contraseña</th> 
-                    <td><label><input type="password"></label></td>
-                </tr>
-                <tr>
-                    <td colspan="2" >
-                        <button type="submit" id="submit_button">Sing in</button>
-                        <button type="submit" id="submit_button">Sing up</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                       <a href="#">Reestablecer la contraseña</a>
-                    </td>
-                </tr>
-            </table>
+        <aside>
+            <div id="div_acceso">
+                <table id="acceso">
+                    <tr>
+                        <th>Usuario</th>
+                        <td><label><input type="text"></label></td>
+                    </tr>
+                    <tr>
+                        <th>Contraseña</th> 
+                        <td><label><input type="password"></label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" >
+                            <button type="submit" class="submit_button">Sing in</button>
+                            <button type="submit" class="submit_button">Sing up</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                        <a href="#">Reestablecer la contraseña</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </aside>
 
     </div>
 
     <footer>
 
-        <div>
+        <div id="copyright">
             <p>@ CookinTV Copyright 2024</p>
         </div>
 
