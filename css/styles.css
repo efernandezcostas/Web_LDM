@@ -1,30 +1,46 @@
+/* 
+* 
+* Index
+*
+*/
+
 body{
     background-color: #FFD059;
     margin:0;
     padding:0;
 }
 
-#imagen_portada{
-    width: 100%;
-}
-
-nav>ul{    
-    margin-top: 0;
-    text-align: center;
+header{
     background-color: #112C73;
+    text-align: center;
+    padding-left: 5em;
 }
 
-nav>ul>li{
-    display: inline-flex;
+#imagen_portada{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    max-width: 100%;
+}
+
+nav ul{
+    padding:0;
+    margin-top: 0;
+
+    display: flex; 
+    justify-content: center;
+}
+
+nav li{
+    list-style: none;
     padding: 1% 2%;
-    width: 15%;
+    width: fit-content;
 }
 
 .nav_opciones{
-    color:#FFD059;
+    color:#112C73;
 }
 
-nav>ul>li:hover{
+nav li:hover{
     .nav_opciones{
         color: #E62520;
     }
@@ -32,8 +48,21 @@ nav>ul>li:hover{
 
 #cuerpo_pagina{
     display: flex;
-    justify-content: center;
-    text-align: center;
+}
+
+#div_texto{
+    position:absolute;
+    margin-right: 30%;
+    margin-left: 30%;
+    width: 40%;
+}
+
+#div_imagen{
+    width: 40%;
+}
+
+#imagen_t{
+    width: 100%;
 }
 
 #imagen_cuerpo{
@@ -44,12 +73,19 @@ aside{
     width: 30%;
 }
 
-
-#acceso{
-    float: left;
+#div_acceso{
+    display: flex;
     margin-top: 10%;
     margin-left: 10%;
+    text-align: center;
+}
+
+#acceso{
     color: #112C73;
+}
+
+.labels{
+    width: 90%;
 }
 
 .submit_button{
@@ -63,29 +99,78 @@ footer{
     padding-left: 1%;
     background-color: #112C73;
     width: 99%;
+    color: #E62520; 
 }
 
 footer>div{
-    color: #E62520;/*
-    padding:0.1em;  */
-    display: inline-block;
-}
-
-#copyright{
-    float: left;
-}
-
-#social_icons{
-    margin-left: 30%;
-    
-}
-
-#social_icons>ul>li{
+    background-color: white;
     display: inline-flex;
 }
 
+#copyright{
+    background-color: greenyellow;
+    align-items: center;
+}
+
+#copyright>p{
+    background-color: purple;
+    height: 100%;
+    margin: 0;
+}
+
+#social_icons>ul{
+    background-color: red;
+    display: flex;
+    margin:0;
+    padding:0;
+}
+
+#social_icons>ul>li{
+    background-color: orange;
+    display: flex;
+}
+
 #social_icons>ul>li>img{
-    width: 80%;/*
-    margin: 0% 10%;
-    padding: 0% 10%;*/
+    background-color: yellow;
+}
+
+
+
+/* 
+* 
+* Peliculas 
+*
+*/
+
+
+.div_color{
+    display: flex;
+    height: 600px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.div_texto_color{
+    align-self: center;
+    margin: 0 4%;
+}
+
+.div_video_color{
+    width: 100%;
+    height: 80%;
+    align-self: center;
+    margin: 1% 4%;
+}
+
+.div_video_color>iframe{
+    /* width: 100%; */
+    height: 100%;
+}
+
+.div_amarillo{
+    background-color: #FFD059;
+}
+
+.div_azul{
+    background-color: #112C73;
 }
