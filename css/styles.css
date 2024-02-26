@@ -5,6 +5,10 @@
 */
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color:#112C73;
+
     background-color: #FFD059;
     margin:0;
     padding:0;
@@ -38,6 +42,8 @@ nav li{
 
 .nav_opciones{
     color:#112C73;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 nav li:hover{
@@ -55,6 +61,8 @@ nav li:hover{
     margin-right: 30%;
     margin-left: 30%;
     width: 40%;
+
+    color: #E62520;
 }
 
 #div_imagen{
@@ -141,7 +149,14 @@ footer>div{
 * Peliculas 
 *
 */
+h1{
+    /* color: #E62520; */
+}
 
+hr{
+    border:solid 2px #E62520;
+    margin: 0;
+}
 
 .div_color{
     display: flex;
@@ -169,8 +184,10 @@ footer>div{
 
 .div_amarillo{
     background-color: #FFD059;
+    color: #112C73;
 }
 
 .div_azul{
     background-color: #112C73;
+    color: #FFD059;
 }
