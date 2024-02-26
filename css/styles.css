@@ -62,7 +62,14 @@ nav li:hover{
     margin-left: 30%;
     width: 40%;
 
+}
+
+#texto{
+    text-align: center;
+    font-size: 3em;
     color: #E62520;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 #div_imagen{
