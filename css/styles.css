@@ -155,7 +155,7 @@ aside{
   Footer
 */
 footer{
-    background-color: #112C73;
+    background-color: #E62520;
 }
 
 #div_footer{
@@ -169,7 +169,6 @@ footer{
 #div_footer div ul{
     list-style: none;
     margin: 0 4%;
-    padding: 0;
 }
 
 #div_footer div ul li{
