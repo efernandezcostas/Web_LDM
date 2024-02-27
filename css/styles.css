@@ -12,8 +12,6 @@ body{
     background-color: #FFD059;
     margin:0;
     padding:0;
-
-    
 }
 
 header{
@@ -132,22 +130,8 @@ aside{
     cursor: pointer;
 }
 
-
-
-
-
 footer{
     background-color: #112C73;
-
-
-
-
-}
-
-#div_footer{
-}
-
-#div_footer>div{
 }
 
 #copyright{
@@ -180,23 +164,11 @@ footer{
     margin-top: 0.2em;
 }
 
-#tuenti{
-}
-#myspace{
-
-}
-
-
-
 /* 
 * 
 * Peliculas 
 *
 */
-h1{
-    /* color: #E62520; */
-}
-
 hr{
     border:solid 2px #E62520;
     margin: 0;
