@@ -132,43 +132,58 @@ aside{
     cursor: pointer;
 }
 
-footer{   
-    padding-left: 1%;
+
+
+
+
+footer{
     background-color: #112C73;
-    width: 99%;
-    color: #E62520; 
+
+
+
+
 }
 
-footer>div{
-    background-color: white;
-    display: inline-flex;
+#div_footer{
+}
+
+#div_footer>div{
 }
 
 #copyright{
-    background-color: greenyellow;
-    align-items: center;
+    color: #E62520;
+    float: left;
+    position: absolute;
+    padding-top: 24px;
+    max-height: 50px;
 }
 
-#copyright>p{
-    background-color: purple;
-    height: 100%;
-    margin: 0;
+#social_icons{
+    text-align: center;
 }
 
 #social_icons>ul{
-    background-color: red;
-    display: flex;
-    margin:0;
-    padding:0;
+    display: table;
+    margin-left: 30%;
+    width: 40%;
+    list-style: none;
+    margin: 0 auto;
 }
 
 #social_icons>ul>li{
-    background-color: orange;
-    display: flex;
+    display: inline-table;
+    padding: 2% 10%;
 }
 
 #social_icons>ul>li>img{
-    background-color: yellow;
+    width: 70%;
+    margin-top: 0.2em;
+}
+
+#tuenti{
+}
+#myspace{
+
 }
 
 
