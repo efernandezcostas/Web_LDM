@@ -130,6 +130,54 @@ aside{
     cursor: pointer;
 }
 
+
+
+
+
+footer{
+    background-color: #112C73;
+}
+
+#div_footer{
+    text-align: center;
+}
+
+.social_icons{
+    display: inline-block;
+}
+
+.social_icons ul{
+    list-style: none;
+    margin: 0 10%;
+    padding: 0;
+}
+
+.social_icons ul li{
+    display: inline-block;
+    text-align: center;
+
+}
+
+.social_icons ul li img{
+    width: 50%;
+    margin-top: 10%;
+}
+
+.social_icons_diffferent{
+    width: 40%;
+    text-align: right;
+}
+
+.social_icons_cookin{
+    width: 40%;
+    text-align: left;
+}
+
+
+
+
+
+/*
 footer{
     background-color: #112C73;
 }
@@ -162,7 +210,7 @@ footer{
 #social_icons>ul>li>img{
     width: 70%;
     margin-top: 0.2em;
-}
+} */
 
 /* 
 * 
