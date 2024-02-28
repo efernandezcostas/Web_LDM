@@ -4,7 +4,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+    font-size: 18px;
     color:#112C73;
 
     background-color: #FFD059;
@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    background-color: red;
+    /* background-color: red; */
 }
 
 .div_header{
@@ -249,53 +249,50 @@ hr{
 }
 
 #div_cv{
-    background-color: orange;
-
-    width: 70%;
-    margin-left: 10%;
+    width: 80%; 
+    margin-left: 20%;
     text-align: center;
     padding: 2%;
 }
 
 #cabecera_cv{
-    background-color: aqua;
     height: 300px;
 }
 
-#cabecera_cv p,img{
-    background-color: red;
-
-    display: block;
+#cabecera_cv div{
+    display: flex;
+    /* justify-content: center; */
 }
 
 #cabecera_cv p{
     width: 60%;
-    float: left;
 }
 
 #cabecera_cv img {
-    width: 20%;
-    float:right;
+    width: 10%;
 }
+
+#cuerpo_cv div{
+    background-color: #E62520;
+}
+
+#cuerpo_cv div{
+    width: 80%;
+}
+
+#div_cv {
+    background-color: orange;
+}
+
+
 
 #div_experiencia{
-    background-color: lightblue;
-    text-align: center;
-}
-
-#datos_izq{
-    background-color: green;
-    width: 45%;
-    margin:1%;
+    /* background-color: lightblue; */
+    text-align: left;
 }
 
 #datos_der{
-    background-color: greenyellow;
-    width: 40%;
-}
-
-#cuerpo_cv{
-    display: flex;
-    background-color: black;
-    justify-content: center;
+    /* background-color: greenyellow; */
+    height: 100%;
+    text-align: left;
 }
