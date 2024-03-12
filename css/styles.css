@@ -295,7 +295,9 @@ padding:  0 2% 0 2%;
 }
 
 .tabla_secundaria{
-    width: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .columna_secundaria_1{
@@ -305,7 +307,7 @@ padding:  0 2% 0 2%;
 .columna_secundaria_2{
     width: 50%;
     text-align: right;
-    padding-top: 15%;
+    /* padding-top: 15%; */
 }
 /*
     Sobre mí (CV)
