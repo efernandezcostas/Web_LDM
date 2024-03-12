@@ -75,7 +75,7 @@ nav li:hover{
 }
 
 #texto{
-    padding-top: 10%;
+    padding-top: 2%;
     text-align: center;
     font-size: 300%;
     color: #E62520;
@@ -169,6 +169,7 @@ footer{
 #div_footer div ul{
     list-style: none;
     margin: 0 4%;
+    padding: 0;
 }
 
 #div_footer div ul li{
@@ -182,12 +183,12 @@ footer{
 }
 
 #social_icons_diffferent{
-    width: 40%;
+    width: 20%;
     text-align: right;
 }
 
 #social_icons_cookin{
-    width: 40%;
+    width: 20%;
     text-align: left;
 }
 
@@ -204,14 +205,8 @@ hr{
     margin: 0;
 }
 
-.div_color{
-    display: flex;
-    height: 600px;
-    text-align: justify;
-    text-align-last: center;
-    align-items: center;
-}
 
+/* 
 .div_texto_color{
     margin: 0 4%;
     max-width: 50%;
@@ -229,11 +224,20 @@ hr{
     width: 100%;
     height: 100%;
     border: none;
+} */
+.div_color{
+    height: 30rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    margin:0;
 }
 
 .div_amarillo{
     background-color: #FFD059;
     color: #112C73;
+    align-items: center;
 }
 
 .div_azul{
@@ -241,6 +245,68 @@ hr{
     color: #FFD059;
 }
 
+.table_color{
+    height: 28rem;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.table_amarillo{
+    background-color: green;
+}
+
+.row_amarillo{
+    background-color: greenyellow;
+}
+
+.column_amarillo_1{
+    background-color: red;
+    width: 40%;
+    height:100%;
+    max-width: 50%;
+}
+
+.column_amarillo_1>iframe{
+    width: 100%;
+    height: 85%;
+    border: none;
+} 
+
+.column_amarillo_2{
+background-color: orange;
+width: 20%;
+/* justify-content: center; */
+text-align: center;
+}
+
+.column_amarillo_3{
+background-color: orangered;
+width: 20%;
+padding:  0 2% 0 2%;
+}
+
+.column_amarillo_4{
+    background-color: aqua;
+    width: 15%;
+    /* text-align: center; */
+    /* text-justify: auto; */
+}
+
+.tabla_secundaria{
+    width: 100%;
+}
+
+.columna_secundaria_1{
+    width: 50%;
+}
+
+.columna_secundaria_2{
+    width: 50%;
+    text-align: right;
+    padding-top: 15%;
+}
 /*
     Sobre mí (CV)
 */
