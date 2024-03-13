@@ -6,6 +6,10 @@
     <link rel="icon" href="../imagenes/LogoDiffferent.svg" type="image/x-icon">
     <link rel="stylesheet" href="../css/styles.css">
     <title>CookintTV - Películas</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Madimi+One&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -13,7 +17,7 @@
     <div id="cabecera">
         <header>
             <div id="perma_icono">
-                <a href="peliculas.html"><img src="../imagenes/LogoDiffferent.svg" alt="logo perma"></a>
+                <a href="series.html"><img src="../imagenes/LogoDiffferent.svg" alt="logo perma"></a>
             </div>
             <div class="div_header">
                 <div>
@@ -25,11 +29,11 @@
         <hr>
         <nav>
             <ul>
-                <li><a href="#" class="nav_opciones">NOVEDADES</a></li>
-                <li><a href="#" class="nav_opciones">PELÍCULAS</a></li>
-                <li><a href="#" class="nav_opciones">SERIES</a></li>
-                <li><a href="#" class="nav_opciones">JUEGOS</a></li>
-                <li><a href="#" class="nav_opciones">SOBRE MÍ</a></li>
+                <li><a href="../index.html" class="nav_opciones">NOVEDADES</a></li>
+                <li><a href="peliculas.html" class="nav_opciones">PELÍCULAS</a></li>
+                <li><a href="series.html" class="nav_opciones">SERIES</a></li>
+                <li><a href="juegos.html" class="nav_opciones">JUEGOS</a></li>
+                <li><a href="sobre_mi.html" class="nav_opciones">SOBRE MÍ</a></li>
             </ul>
         </nav>
 
@@ -37,7 +41,7 @@
 
     <div id="cuerpo_peliculas">
 
-        <div class="div_amarillo div_color">
+        <div class="div_amarillo div_color" id="s_malviviendo">
             <table class="table_color">
                 <tr>
                     <td class="column_amarillo column_1 first_column">
@@ -45,20 +49,20 @@
                             class="imagen_serie imagen_malviviendo">
                     </td>
                     <td class="column_amarillo column_2 first_column">
-                        <h1>Malviviendo,<br>la serie</h1>
+                        <h1>Malviviendo</h1>
                     </td>
                     <td class="column_amarillo column_3 first_column">
-                        <p>Documental de Malviviendo y Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Voluptate aliquid imp i Ex ae in pariatur odio minus a
-                            de Malviviendo y Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-                            aliquid imp i Ex ae in pariatur odio minus ut molestias autem, molestiae culpa volu
+                        <p class="ps_descripcion">Se desarrolla en un barrio marginal de Sevilla. La trama sigue a un
+                            grupo de jóvenes con diversos problemas y aspiraciones que intentan sobrevivir en un entorno
+                            complicado. A través de un enfoque humorístico y situaciones cómicas, la serie aborda temas
+                            como la amistad, la delincuencia, el desempleo y la búsqueda de sentido en la vida.
                         </p>
                     </td>
                     <td class="column_amarillo column_4 first_column">
                         <h5>Plataforma:</h5>
-                        <p>Netflix</p>
+                        <p>Youtube</p>
                         <h5>Lanzamiento:</h5>
-                        <p> 24/02/2012</p>
+                        <p> 27/01/2009</p>
                         <h5>Director:</h5>
                         <p>David Sainz</p>
                     </td>
@@ -66,7 +70,7 @@
             </table>
         </div>
 
-        <div class="div_azul div_color">
+        <div class="div_azul div_color" id="s_comaland">
             <table class="table_color">
                 <tr>
                     <td class="column_azul column_1">
@@ -77,22 +81,23 @@
                         <h1>Comaland</h1>
                     </td>
                     <td class="column_azul column_3">
-                        <p>Documental de Malviviendo y Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Voluptate aliquid imp i Ex ae in pariatur odio minus aut molestias autem, molestiae
-                            culpa volu</p>
+                        <p class="ps_descripcion">Los creadores de Malviviendo y La Niña Repelente traen esta nueva
+                            webserie de animación. Dos jóvenes, al intentar suicidarse, caen en coma y llegan al mundo
+                            de los sueños de Comaland. Ahí, convertidos en Putoamo y Mataorcos, vivirán grandes y
+                            curiosas aventuras.</p>
                     </td>
                     <td class="column_azul column_4">
                         <h5>Plataforma:</h5>
-                        <p>Netflix</p>
+                        <p>Youtube</p>
                         <h5>Lanzamiento:</h5>
-                        <p> 24/02/2012</p>
+                        <p> 15/09/2014</p>
                         <h5>Director:</h5>
                         <p>David Sainz</p>
                     </td>
                 </tr>
             </table>
         </div>
-        <div class="div_amarillo div_color">
+        <div class="div_amarillo div_color" id="s_criminalistica">
             <table class="table_color">
                 <tr>
                     <td class="column_amarillo column_1">
@@ -103,17 +108,18 @@
                         <h1>Criminalística</h1>
                     </td>
                     <td class="column_amarillo column_3">
-                        <p>Documental de Malviviendo y Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Voluptate aliquid imp i Ex ae in pariatur odio minus a
-                            de Malviviendo y Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-                            aliquid imp i Ex ae in pariatur odio minus ut molestias autem, molestiae culpa volu
+                        <p class="ps_descripcion">Criminalística es un CSI latino en el que, después de triunfar, Julio
+                            Mambo es contratado para interpretar al agente Padrón. La isla de la Palma se convierte en
+                            “Ciudadela Federal, la capital del mal”, el peligroso lugar que el agente Padrón y su
+                            inseparable ayudante, el agente Moreno, deben limpiar de la imperante delincuencia.Cualquier
+                            parecido con “Narcos” es solamente pura coincidencia.
                         </p>
                     </td>
                     <td class="column_amarillo column_4">
                         <h5>Plataforma:</h5>
-                        <p>Netflix</p>
+                        <p>Youtube</p>
                         <h5>Lanzamiento:</h5>
-                        <p> 24/02/2012</p>
+                        <p> 27/11/2018</p>
                         <h5>Director:</h5>
                         <p>David Sainz</p>
                     </td>
@@ -121,7 +127,7 @@
             </table>
         </div>
 
-        <div class="div_azul div_color last_div_color">
+        <div class="div_azul div_color last_div_color" id="s_flaman">
             <table class="table_color">
                 <tr>
                     <td class="column_azul column_1 last_column">
@@ -129,18 +135,20 @@
                             class="imagen_serie imagen_flaman">
                     </td>
                     <td class="column_azul column_2 last_column">
-                        <h1>Malviviendo,<br>el Documental</h1>
+                        <h1>Flaman</h1>
                     </td>
                     <td class="column_azul column_3 last_column">
-                        <p>Documental de Malviviendo y Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Voluptate aliquid imp i Ex ae in pariatur odio minus aut molestias autem, molestiae
-                            culpa volu</p>
+                        <p class="ps_descripcion">Ezequiel es un chaval de barrio como cualquier otro, que vive con su
+                            madre soltera. Sin embargo, tras cumplir veinte años, se da cuenta de que está desarrollando
+                            superpoderes. Alfredo, un compañero friki de clase, lo intenta convencer para que se
+                            convierta en un superhéroe clásico. Ezequiel, que nunca ha tenido demasiadas luces, deberá
+                            entender a la fuerza que un gran poder conlleva una gran responsabilidad.</p>
                     </td>
                     <td class="column_azul column_4 last_column">
                         <h5>Plataforma:</h5>
-                        <p>Netflix</p>
+                        <p>Youtube</p>
                         <h5>Lanzamiento:</h5>
-                        <p> 24/02/2012</p>
+                        <p> 09/04/2013</p>
                         <h5>Director:</h5>
                         <p>David Sainz</p>
                     </td>
@@ -150,36 +158,58 @@
 
 
         <!-- <hr class="hr_footer"> -->
+
         <footer>
             <div id="div_footer">
-                <div id="social_icons_diffferent">
-                    <ul>
-                        <li>
-                            <img src="../imagenes/youtube_blanco.png" alt="Youtube">
-                        </li>
-                        <li>
-                            <img src="../imagenes/youtube_blanco.png" alt="Youtube">
-                        </li>
-                        <li>
-                            <img src="../imagenes/youtube_blanco.png" alt="Youtube">
-                        </li>
-                    </ul>
+                <div id="div_social_icons">
+                    <div id="social_icons_diffferent">
+                        <ul class="social_nombre_cookin">
+                            <li>
+                                <a href="https://www.youtube.com/@DiffferentSL" target="_blank"><img
+                                        src="../imagenes/youtube_blanco.png" alt="Enlace a youtube"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/diffferentsl/" target="_blank"><img
+                                        src="../imagenes/facebook.svg" alt="Enlace a facebook"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/diffferentsl/?hl=es" target="_blank"><img
+                                        src="../imagenes/instagram.svg" alt="Enlace a instagram"></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/diffferentsl?lang=es" target="_blank"><img
+                                        src="../imagenes/twitter.svg" alt="Enlace a twitter"></a>
+                            </li>
+                            <li class="social_nombre">
+                                <h3 class="h3_social_nombre">#Diffferent</h3>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="separador"></div>
+                    <div id="social_icons_diffferent">
+                        <ul>
+                            <li>
+                                <a href="https://www.youtube.com/@DiffferentSL" target="_blank"><img
+                                        src="../imagenes/youtube_blanco.png" alt="Enlace a youtube"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/diffferentsl/" target="_blank"><img
+                                        src="../imagenes/facebook.svg" alt="Enlace a facebook"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/diffferentsl/?hl=es" target="_blank"><img
+                                        src="../imagenes/instagram.svg" alt="Enlace a instagram"></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/diffferentsl?lang=es" target="_blank"><img
+                                        src="../imagenes/twitter.svg" alt="Enlace a twitter"></a>
+                            </li>
+                            <li class="social_nombre">
+                                <h3 class="h3_social_nombre">#Diffferent</h3>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div id="separador"></div>
-                <div id="social_icons_cookin">
-                    <ul>
-                        <li>
-                            <img src="../imagenes/youtube_blanco.png" alt="Youtube">
-                        </li>
-                        <li>
-                            <img src="../imagenes/youtube_blanco.png" alt="Youtube">
-                        </li>
-                        <li>
-                            <img src="../imagenes/youtube_blanco.png" alt="Youtube">
-                        </li>
-                    </ul>
-                </div>
-                </>
         </footer>
 
 </body>

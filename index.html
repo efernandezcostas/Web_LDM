@@ -6,6 +6,10 @@
     <link rel="icon" href="imagenes/LogoDiffferent.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
     <title>CookinTV</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Madimi+One&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +26,7 @@
         <hr>
         <nav>
             <ul>
-                <li><a href="#" class="nav_opciones">NOVEDADES</a></li>
+                <li><a href="index.html" class="nav_opciones">NOVEDADES</a></li>
                 <li><a href="paginas/peliculas.html" class="nav_opciones">PELÍCULAS</a></li>
                 <li><a href="paginas/series.html" class="nav_opciones">SERIES</a></li>
                 <li><a href="paginas/juegos.html" class="nav_opciones">JUEGOS</a></li>
@@ -32,7 +36,33 @@
     </div>
 
     <div id="cuerpo_pagina">
-        <aside></aside>
+        <aside>
+            <div class="div_form_peliculas div_form_all">
+                <form class="form_peliculas form_all">
+                    <label for="peliculas">Peliculas</label><br>
+                    <select name="peliculas" id="peliculas" onchange="window.location.href=this.value;">
+                        <option value="#"> </option>
+                        <option value="paginas/peliculas.html#p_malviviendo">Malviviendo, el Documental</option>
+                        <option value="paginas/peliculas.html#p_penalti">Penalti</option>
+                        <option value="paginas/peliculas.html#p_sinwifi">24 horas sin wifi</option>
+                        <option value="paginas/peliculas.html#p_fogueo">Fogueo</option>
+                    </select>
+                </form>
+            </div>
+
+            <div class="div_form_series div_form_all">
+                <form class="form_peliculas form_all">
+                    <label for="peliculas">Series</label><br>
+                    <select name="series" id="peliculas" onchange="window.location.href=this.value;">
+                        <option value="#"> </option>
+                        <option value="paginas/series.html#s_malviviendo">Malviviendo</option>
+                        <option value="paginas/series.html#s_comaland">Comaland</option>
+                        <option value="paginas/series.html#s_criminalistica">Criminalística</option>
+                        <option value="paginas/series.html#s_flaman">Flaman</option>
+                    </select>
+                </form>
+            </div>
+        </aside>
         <div id="div_texto">
             <p id="texto">
                 CookinTV CookinTV
@@ -56,7 +86,7 @@
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <button type="button" class="submit_button">Sign in</button>
+                            <button type="button" class="submit_button submit_button_1">Sign in</button>
                             <button type="submit" class="submit_button">Sign up</button>
                         </td>
                     </tr>
@@ -73,22 +103,55 @@
 
     <footer>
         <div id="div_footer">
-            <div id="social_icons_diffferent">
-                <ul>
-                    <li>
-                        <img src="imagenes/youtube_blanco.png" alt="Youtube">
-                    </li>
-                </ul>
+            <div id="div_social_icons">
+                <div id="social_icons_diffferent">
+                    <ul class="social_nombre_cookin">
+                        <li>
+                            <a href="https://www.youtube.com/@DiffferentSL" target="_blank"><img
+                                    src="../imagenes/youtube_blanco.png" alt="Enlace a youtube"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/diffferentsl/" target="_blank"><img
+                                    src="../imagenes/facebook.svg" alt="Enlace a facebook"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/diffferentsl/?hl=es" target="_blank"><img
+                                    src="../imagenes/instagram.svg" alt="Enlace a instagram"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/diffferentsl?lang=es" target="_blank"><img
+                                    src="../imagenes/twitter.svg" alt="Enlace a twitter"></a>
+                        </li>
+                        <li class="social_nombre">
+                            <h3 class="h3_social_nombre">#Diffferent</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div id="separador"></div>
+                <div id="social_icons_diffferent">
+                    <ul>
+                        <li>
+                            <a href="https://www.youtube.com/@DiffferentSL" target="_blank"><img
+                                    src="../imagenes/youtube_blanco.png" alt="Enlace a youtube"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/diffferentsl/" target="_blank"><img
+                                    src="../imagenes/facebook.svg" alt="Enlace a facebook"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/diffferentsl/?hl=es" target="_blank"><img
+                                    src="../imagenes/instagram.svg" alt="Enlace a instagram"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/diffferentsl?lang=es" target="_blank"><img
+                                    src="../imagenes/twitter.svg" alt="Enlace a twitter"></a>
+                        </li>
+                        <li class="social_nombre">
+                            <h3 class="h3_social_nombre">#Diffferent</h3>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div id="separador"></div>
-            <div id="social_icons_cookin">
-                <ul>
-                    <li>
-                        <img src="imagenes/youtube_blanco.png" alt="Youtube">
-                    </li>
-                </ul>
-            </div>
-        </div>
     </footer>
 </body>
 
